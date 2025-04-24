@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-box {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: aqua;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.hero {
+    background-color: aqua;
+    padding: 40px 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+ul {
+    margin-left: 30px;
+    margin-top: 30px;
+}

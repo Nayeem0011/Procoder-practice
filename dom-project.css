@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#menu li {
+    display: inline-block;
+    border: 2px solid #ddd;
+    width: 100px;
+    height: 100px;
+    max-width: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    cursor: pointer;
+}
+
+#menu li.red {
+    background-color: #e74c3c;
+}
+
+#menu li.green {
+    background-color: #2ecc71;
+}
+
+#menu li.blue {
+    background-color: #3498db;
+}
+
+#menu li.pink {
+    background-color: #fd79a8;
+}
+
+
+
