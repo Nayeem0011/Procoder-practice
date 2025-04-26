@@ -118,11 +118,17 @@
 
 //Array Methods 
 
+
+// push
+
 // let foodItems = ["Potato", "Apple", "Litchi", "tomato",]
 
 // foodItems.push("Chips", "burger")
 // console.log(foodItems);
 
+
+
+// pop
 
 // let foodItems = ["Potato", "Apple", "Litchi", "tomato",];
 // foodItems.pop()
@@ -137,7 +143,142 @@
 
 
 
-let foodItems = ["Potato", "Apple", "Litchi", "tomato",];
+
+// toString
+// let foodItems = ["Potato", "Apple", "Litchi", "tomato",];
+
+// console.log(foodItems);
+// console.log(foodItems.toString());
+
+
+
+// let marks = [54, 35, 63, 67, 73, 54];
+
+// console.log(marks);
+// console.log(marks.toString());
+
+
+
+// concat
+
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let dcHeroes = ["superman", "batman"];
+
+// let herose = marvelHeroes.concat(dcHeroes);
+// console.log(herose);
+
+
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let dcHeroes = ["superman", "batman"];
+// let myName = ["nayeem"]
+
+// let herose = marvelHeroes.concat(dcHeroes,myName);
+// console.log(herose);
+
+
+
+// unshift
+
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+
+// marvelHeroes.unshift("antman")
+// console.log(marvelHeroes);
+
+
+
+
+// shift
+
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+
+// marvelHeroes.shift()
+// console.log(marvelHeroes);
+
+
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+
+// let val = marvelHeroes.shift()
+// console.log("deleted", val);
+// console.log(marvelHeroes);
+
+
+
+// slice
+
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// console.log(herose.slice(1));
+
+
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// console.log(herose.slice(1, 3));
+
+
+
+// splace
+
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// herose.splice(1, 1, "nayeem");
+
+// console.log(herose);
+
+
+// add element
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// herose.splice(2, 0, "nayeem");
+
+// console.log(herose);
+
+
+// delete element
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// herose.splice(2, 1);
+
+// console.log(herose);
+
+// replace element
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// herose.splice(2, 1, "batman");
+
+// console.log(herose);
+
+
+// let herose = ["ironman", "thor", "hulk", "spiderman", "shaktiman"];
+// herose.splice(2);
+
+// console.log(herose);
+
+
+
+
+
+// let practice
+
+// let companices = ["Boomberg", "Microsoft", "Uber", "Googlr", "IBM", "Netflix"]
+
+// // companices.pop()
+// companices.shift()
+// console.log(companices);
+
+
+
+// let companices = ["Boomberg", "Microsoft", "Uber", "Googlr", "IBM", "Netflix"]
+
+// companices.splice(2, 1, "Ola")
+// console.log(companices);
+
+
+
+// let companices = ["Boomberg", "Microsoft", "Uber", "Googlr", "IBM", "Netflix"]
+
+// companices.push("Amazon")
+// console.log(companices);
+
+
+
+
+
+
+
 
 
 
