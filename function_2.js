@@ -170,22 +170,32 @@
 
 
 
-// Let Practice
+// Let Practice Qs. For a given array of numbers, print the square of each value using the forEach loop.
+
+// let nums = [23, 44, 76, 23, 75, 86, 85, 34, 63]
+
+// nums.forEach((num) =>{
+//     console.log(num * num);
+// })
 
 
 
 
+// let nums = [23, 44, 76, 23, 75, 86, 85, 34, 63]
+
+// nums.forEach((num) =>{
+//     console.log(num **2);
+// })
 
 
 
+// let nums = [23, 44, 76, 23, 75, 86, 85, 34, 63]
 
+// let calcSqare = (num) => {
+//     console.log(num * num);
+// }
 
-
-
-
-
-
-
+// nums.forEach(calcSqare)
 
 
 
