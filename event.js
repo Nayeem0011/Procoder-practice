@@ -31,11 +31,37 @@ btn2.ondblclick = () => {
 
 
 
-let box = document.querySelector("div");
+// let box = document.querySelector("div");
 
-box.onmouseover = () => {
-    console.log("You are inside div");
-}
+// box.onmouseover = () => {
+//     console.log("You are inside div");
+// }
+
+
+
+
+
+
+// Event Object
+
+// let box = document.querySelector("div");
+
+// box.onmouseover = (evn) => {
+//     console.log(evn.type); 
+//     console.log(evn.target); 
+//     console.log(evn.clientX, evn.clientY); 
+// }
+
+
+
+
+const box = document.getElementById("box");
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+  box.classList.toggle("blue");
+});
+
 
 
 
