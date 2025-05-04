@@ -7,3 +7,14 @@ div {
     border-radius: 5px;
     text-align: center;
 }
+
+
+
+#mode {
+    margin: 15px 0;
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+}
