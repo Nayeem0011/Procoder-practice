@@ -171,8 +171,156 @@ console.log(lexus);
 
 
 
+
 // Inheritance in js
 
+// class Parent {
+//   hello() {
+//     console.log("Hello");
+//   }
+// }
+
+// class Child extends Parent {}
+// let obj = new Child()
+// console.log(obj);
+
+
+// Example
+// class Person {
+//   eat() {
+//     console.log("eat");
+//   }
+
+//   sleep() {
+//     console.log("sleep");
+//   }
+// }
+
+// class Engineer extends Person {
+//   wark() {
+//     console.log("Solve Problems, Build Something");
+//   }
+// }
+// let neyeemObj = new Engineer()
+// console.log(neyeemObj);
+
+
+// Example
+
+// class Person {
+//   constructor() {
+//     this.species = "home spaiens"
+//   }
+
+//   eat() {
+//     console.log("eat");
+//   }
+
+//   wark() {
+//     console.log("no nothing");
+//   }
+
+//   sleep() {
+//     console.log("sleep");
+//   }
+// }
+
+// class Engineer extends Person {
+//   wark() {
+//     console.log("Solve Problems, Build Something");
+//   }
+// }
+
+// class Doctor extends Person {
+//   wark() {
+//     console.log("Treat Patients");
+//   }
+// }
+// let neyeemObj = new Engineer()
+// console.log(neyeemObj);
+
+
+
+// super Keyword
+
+
+// class Person {
+//   constructor() {
+//     this.species = "home spaiens"
+//   }
+
+//   eat() {
+//     console.log("eat");
+//   }
+// }
+
+// class Engineer extends Person {
+//   constructor(brance) {
+//     super();// To invoke parent class constructor
+//     this.brance = brance;
+//   }
+//   wark() {
+//     console.log("Solve Problems, Build Something");
+//   }
+// }
+
+// let engObj = new Engineer("Chemical Engineer")
+// console.log(engObj);
+
+
+// Example
+
+// class Person {
+//   constructor() {
+//     console.log("Enter parent construtor");
+//     this.species = "home spaiens"
+//   }
+
+//   eat() {
+//     console.log("eat");
+//   }
+// }
+
+// class Engineer extends Person {
+//   constructor(brance) {
+//     console.log("Enter child construtor");
+//     super();// To invoke parent class constructor
+//     this.brance = brance;
+//     console.log("Exit child construtor");
+//   }
+//   wark() {
+//     console.log("Solve Problems, Build Something");
+//   }
+// }
+
+// let engObj = new Engineer("Chemical Engineer")
+// console.log(engObj);
+
+
+// Example
+
+class Person {
+  constructor(name) {
+    this.species = "home spaiens"
+    this.name = name;
+  }
+
+  eat() {
+    console.log("eat");
+  }
+}
+
+class Engineer extends Person {
+  constructor(name) {
+    super(name);// To invoke parent class constructor
+  }
+  wark() {
+    console.log("Solve Problems, Build Something");
+  }
+}
+
+let engObj = new Engineer("Nayeem")
+console.log(engObj);
 
 
 
@@ -180,17 +328,23 @@ console.log(lexus);
 
 
 
+class Parent {
+  constructor(name) {
+    this.name = name;
+  }
+}
 
+class Child extends Parent {
+  constructor(name, age) {
+    super(name); 
+    this.age = age;
+  }
 
+  show() {
+    console.log(`${this.name} is ${this.age} years old`);
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
+const obj = new Child("Nayeem", 22);
+obj.show(); 
 
